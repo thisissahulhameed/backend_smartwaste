@@ -17,6 +17,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
+app.get("/",(req,res)=>{
+  res.send("this is working fine");
+})
+
 app.post("/sendSMS", (req, res) => {
   
   twilioClient.messages
