@@ -6,10 +6,10 @@ const twilio = require("twilio");
 const app = express();
 const port = process.env.PORT || 5000;
 
-const twilioAccountSid = "AC2dd7ed4a94da92836966cf5b712b268c";
-const twilioAuthToken = "baa6ed65274f79565d1d820046262ec3";
-const twilioPhoneNumber = "+16206229317";
-const recipientPhoneNumber = "+919360116541";
+const twilioAccountSid = "AC0c849aeaf5a18c69622ae27530c4f1f6";
+const twilioAuthToken = "085ff209e2f6ad79577954b1c01e0e60";
+const twilioPhoneNumber = "+12706123702";
+const recipientPhoneNumber = "+917708966367";
 
 const twilioClient = twilio(twilioAccountSid, twilioAuthToken);
 
