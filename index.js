@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const twilioAccountSid = "AC0c849aeaf5a18c69622ae27530c4f1f6";
-const twilioAuthToken = "366cae8f8939e636a58ae361996a2f30";
+const twilioAuthToken = "dc0808db204f3a1e7a2d4a9266258047";
 const twilioPhoneNumber = "+12706123702";
 const recipientPhoneNumber = "+917708966367";
 
